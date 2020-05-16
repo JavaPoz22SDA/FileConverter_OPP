@@ -3,6 +3,8 @@ public class ReaderFactory {
 
         if(filePath.endsWith(".json")){
             return new JSONReader();
+        } else if(filePath.endsWith(".csv")){
+            return new CSVReader();
         }
         /*
         TODO: CSVReader, ExcelReader ify
