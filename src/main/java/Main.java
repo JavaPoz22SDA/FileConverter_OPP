@@ -3,6 +3,6 @@ public class Main {
         Conventer conventer = new Conventer();
         String sourceFilePath = "test.json";
         String outputFilePath = "test.xlsx";
-        conventer.conventer(sourceFilePath, outputFilePath);
+        conventer.convert(sourceFilePath, outputFilePath);
     }
 }
